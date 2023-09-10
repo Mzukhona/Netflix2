@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Roboto:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+ font-family: 'Open Sans', sans-serif, robot;
+ color: #ffff;
+}
+.navbar > img{
+    height: 70px ;
+}
+.navbar {
+    height: 20%;
+    margin: 0px 45px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overlay{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 50%;
+}
+.backgroundpic{
+    background-image: url(./Assets/ZA-en-20230821-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-bottom: 8px solid #232323;
+    position: relative;
+    z-index: 1;
+}
+
+.sign-form> h4{
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+.front h1{
+    font-size:3rem;
+    margin: 0px;
+    font-weight: 900;
+}
+.front p{
+    margin: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+input{
+    width: 348px;
+    height: 25px;
+    background-color: #232323;
+    opacity: 50%;
+    padding: 16px;
+    border: 1px solid #636262;
+    border-radius: 8px;
+
+}
+button{
+height: 70%px;
+padding: 12px 24px;
+margin-right: 8px;
+background: #e50914;
+border: none;
+border-radius: 8px;
+font-size: 1.2rem;
+
+}
+.navbar a{
+    height: 24px;
+    padding: 7px 17px;
+    background: #e50914;
+    font: 14px;
+    border: none;
+    border-radius: 0.25rem;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0px 6%;
+
+}
+/* main display  */
+.info-container{
+    background: black;
+    color: white;
+    width: 100%;
+}
+.displayers{
+    display: flex;
+    padding: 70px 45px;
+    height: 380px;
+    border-bottom: 8px solid #232323;
+
+}
+.video-tv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    z-index: 1;
+
+}
+.video-tv video{
+   position: absolute;
+   z-index: -1;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 508px;
+    height: 381px;
+}
+.displayers-text h2, h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.displayers-text p{
+    font-size:1.8rem;
+    font-family: 400;
+}
+.displayers-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.context{
+    padding-left: 5px;
+}
+.faq-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid #232323;
+    padding: 70px 0px;
+}
+ .questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ }
+.questions button{
+    width: 1024px;
+    height: 84px;
+    margin: 0px 0px 8px;
+    background: #2d2d2d;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size:28px;
+    padding: 24px;
+}
+.sign-form{
+    font-size:1.2rem;
+    font-weight:400;
+    padding:20px;
+}
+.form-start{
+ height: 25px;
+
+}
+.footer{
+    margin-left: 70px;
+    padding: 70px 45px ;
+    color: #757575;
+
+}
+.footer-top{
+    margin-bottom: 20px ;
+}
+.more-info{
+    list-style-type: none;
+    text-decoration: underline #ffff;
+    columns: 3;
+    padding: 12px 0px;   
+}
+.more-info li{
+    font:14px;
+    padding: 12px 0px 0px ; 
+    color: #757575;
+}
+.more-info:hover{
+    cursor: pointer;
+}
+.footer span, .footer p{
+    color: #757575;
+}
+.footer span{
+    text-decoration: underline;
+}
+.footer span:hover{
+    cursor: pointer;
+}
+.language{
+    display: flex;
+    align-items: center;
+}
+select{
+    position: relative;
+    background: #0f0f0f;
+    border: 1px solid #5e5e5e;
+    border-radius: 3px;
+    padding: 6px 0px 6px 30px;
+}
+.language span{
+    position: absolute;
+    z-index: 1;
+}
+
+
+.country{
+    padding: 10px 0px 100px 0px;
+}
